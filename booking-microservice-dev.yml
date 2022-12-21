@@ -1,0 +1,13 @@
+booking:
+  property: Booking Profile Dev Update
+
+#Crear base de datos con codigo primero
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookingdb
+  jpa:
+    hibernate:
+      ddl-auto: update
+  show-sql: true
+  generate-ddl: true
